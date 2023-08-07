@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <form action="POST">
+        <h1>Contact Us</h1>
+        <fieldset>
+            <label class="" for="name">Name:</label>
+            <input type="text" name="name" placeholder="Name"required>
+
+            <label class="" for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email" required>
+
+            <label class="" for="message">Message:</label>
+            <textarea name="message" rows="5" cols="17" placeholder="Message"></textarea>
+
+
+            <input type="Submit" value="Submit" name="">
+
+        </fieldset>
+
+        <h1>Login</h1>
+        <fieldset>
+            <label class="" for="username">Username:</label>
+            <input type="text" name="username" placeholder="Username" required>
+
+            <label class="" for="password">Password:</label>
+            <input type="password" name="password" placeholder="Password" required>
+
+            <input type="Submit" value="Login" name="">
+        </fieldset>
+
+        <h1>Survey</h1>
+    <fieldset>
+                <label class="" for="name">Name:</label>
+                <input type="text" name="name" placeholder="Name" required>
+
+                <label class="" for="age">Age:</label>
+                <input type="text" name="age" placeholder="Age" required>
+
+            <label>Gender:</label>
+
+                <input type="radio" value="gender_male" name="user_gender">Male<br>
+
+                <input type="radio" value="gender_female" name="user_gender">Female<br>
+
+                <input type="radio" value="gender_other" name="user_gender">Other<br>
+                
+
+            <label>Which programming languages do you know?</label>
+
+                <input type="checkbox" value="languages_html" name="user_languages">HTML<br>
+
+                <input type="checkbox" value="languages_css" name="user_languages">CSS<br>
+
+                <input type="checkbox" value="languaegs_javascript" name="user_languages">Javascript<br>
+
+                <input type="checkbox" value="languages_python" name="user_languages">Python<br>
+
+            <label class="comments">Comments:</label> 
+                <textarea name="bio" rows="5" cols="17"></textarea>   
+
+            <input type="Submit" value="Submit" name="">
+        </form>
+    </fieldset>
+</body>
+
+</html>
